@@ -1,6 +1,7 @@
 import 'package:eventsapp/eventspage.dart';
 import 'package:eventsapp/evntspage1.dart';
 import 'package:eventsapp/popup.dart';
+import 'package:eventsapp/searchpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Scaffold(backgroundColor: Color(0xff1831A0), body: EventsPage1()),
+      home: Scaffold(backgroundColor: Color(0xff1831A0), body: Searchpage()),
     );
   }
 }
